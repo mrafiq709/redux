@@ -22,7 +22,7 @@ add second parameter in **src/store.js** createStore function. Now inspect and g
 npm i redux-devtools-extension
 ```
 
-Now update createStore function
+Now update **src/store.js** createStore function
 
 ```
 import { devToolsEnhancer } from "redux-devtools-extension";
@@ -30,13 +30,13 @@ import { devToolsEnhancer } from "redux-devtools-extension";
 const store = createStore(reducer, devToolsEnhancer({ trace: true }));
 ```
 
-Now open wbpack.config.js and add this under ` mode: "development",`
+Now open **wbpack.config.js** and add this under ` mode: "development",`
 
 ```
 devtool: "source-map",
 ```
 
-Now open the settings of redux tool in browser and add external editor like vscode and paste project folder path.
+Now open the settings of redux tool in browser and add external editor like *vscode* and paste project folder path.
 
 Done !
 
