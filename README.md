@@ -30,7 +30,7 @@ import { devToolsEnhancer } from "redux-devtools-extension";
 const store = createStore(reducer, devToolsEnhancer({ trace: true }));
 ```
 
-Now open **wbpack.config.js** and add this under ` mode: "development",`
+Now open **webpack.config.js** and add this under ` mode: "development",`
 
 ```
 devtool: "source-map",
