@@ -7,7 +7,7 @@ install chrome extension:
 
 `https://github.com/zalmoxisus/redux-devtools-extension#usage`
 
-add second parameter in createStore function. Now inspect and go to Redux tab and relaod.
+add second parameter in **src/store.js** createStore function. Now inspect and go to Redux tab and relaod.
 
 ```
  const store = createStore(
