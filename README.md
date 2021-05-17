@@ -1,7 +1,7 @@
-# Redux Toolkit
+# Memoization
+
+// f(x) => y
 
 ```
-npm i @reduxjs/toolkit@1.2.5
+npm i reselect
 ```
-
-and update **src/configureStore.js**
